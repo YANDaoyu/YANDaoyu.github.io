@@ -2,49 +2,51 @@
 
 Lagrange is a minimalist Jekyll theme for running a personal blog or site for free through [Github Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/Lagrange/).
 
+Lagrange 是通过 [Github Pages](https://pages.github.com/) 或者你自己的服务器可建立的最小的个人博客或站点的Jekyll主题。你所需要知道的关于这个Jekyll主题的所有信息都可以在这个READEM中找到，也可以在 [the demo site](https://lenpaul.github.io/Lagrange/) 中找到。
+
 ![alt text](https://user-images.githubusercontent.com/8409329/32631384-17107870-c56e-11e7-932f-deeb7c12e4db.png "Lagrange Demo Image")
 
-## Notable features
+## Notable features 主要功能/显著特征
 
-* Compatible with GitHub Pages.
+* Compatible with GitHub Pages. 与 GitHub Pages 兼容。
 
-* Support for Jekyll's built-in Sass/SCSS preprocessor and data files for making customizing easier.
+* Support for Jekyll's built-in Sass/SCSS preprocessor and data files for making customizing easier. 支持Jekyll内置的Sass/SCSS预处理器和数据文件，使制作更加简单。
 
-* [Google Analytics](https://www.google.com/analytics/) support.
+* [Google Analytics](https://www.google.com/analytics/) support. 支持 [Google Analytics](https://www.google.com/analytics/) 。
 
-* Commenting support powered by [Disqus](https://disqus.com/).
+* Commenting support powered by [Disqus](https://disqus.com/). 评论由 [Disqus](https://disqus.com/) 支持。
 
-* Optimized for search engines.
+* Optimized for search engines. 针对搜索引擎进行了优化。
 
-* LaTeX support through [MathJax](https://www.mathjax.org/).
+* LaTeX support through [MathJax](https://www.mathjax.org/). 通过 [MathJax](https://www.mathjax.org/) 可支持LaTex。
 
-## Table of Contents
+## Table of Contents 内容表
 
-1. [Introduction](#introduction)
-   1. [What is Jekyll](#what-is-jekyll)
-   2. [Never Used Jeykll Before?](#never-used-jekyll-before)
-2. [Installation](#installation)
-   1. [GitHub Pages Installation](#github-pages-installation)
-   2. [Local Installation](#local-installation)
-   3. [Directory Structure](#directory-structure)
-   4. [Starting From Scratch](#starting-from-scratch)
-3. [Configuration](#configuration)
-   1. [Sample Posts](#sample-posts)
-   2. [Site Variables](#site-variables)
-   3. [Adding Menu Pages](#adding-menu-pages)
-   4. [Posts](#posts)
-   5. [Layouts](#layouts)
+1. [Introduction 介绍](#introduction)
+   1. [What is Jekyll 什么是Jekyll](#what-is-jekyll)
+   2. [Never Used Jeykll Before 从未使用过Jekyll](#never-used-jekyll-before)
+2. [Installation 安装](#installation)
+   1. [GitHub Pages Installation GP安装](#github-pages-installation)
+   2. [Local Installation 本地安装](#local-installation)
+   3. [Directory Structure 目录结构](#directory-structure)
+   4. [Starting From Scratch 从零开始](#starting-from-scratch)
+3. [Configuration 配置](#configuration)
+   1. [Sample Posts 事例文章](#sample-posts)
+   2. [Site Variables 设置变量](#site-variables)
+   3. [Adding Menu Pages 添加目录页](#adding-menu-pages)
+   4. [Posts 文章](#posts)
+   5. [Layouts 布局](#layouts)
    6. [YAML Front Block Matter](#yaml-front-block-matter)
-4. [Features](#features)
-   1. [Design Considerations](#design-considerations)
+4. [Features 特征](#features)
+   1. [Design Considerations 设计考虑](#design-considerations)
    2. [Disqus](#disqus)
    3. [Google Analytics](#google-analytics)
    4. [RSS Feeds](#rss-feeds)
-   5. [Social Media Icons](#social-media-icons)
+   5. [Social Media Icons 社交媒体标识](#social-media-icons)
    6. [MathJax](#mathjax)
-   7. [Syntax Highlighting](#syntax-highlighting)
+   7. [Syntax Highlighting 语法高亮](#syntax-highlighting)
    8. [Markdown](#markdown)
-5. [Everything Else](#everything-else)
+5. [Everything Else 其他](#everything-else)
 6. [Contributing](#Contributing)
 7. [Questions?](#questions)
 8. [Credits](#credits)
