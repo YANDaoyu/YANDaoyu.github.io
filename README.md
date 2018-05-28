@@ -55,13 +55,13 @@ Lagrange 是通过 [Github Pages](https://pages.github.com/) 或者您自己的�
 8. [Credits](#credits)
 9. [License](#license)
 
-## Introduction 介绍
+## Introduction
 
 Lagrange is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
 
 Lagrange 是一个能够完全兼容 [GitHub Pages](https://pages.github.com/) 的Jekyll主题。如果您还不熟悉 GitHub Pages, 您可以参考他们的 [官方文件](https://help.github.com/categories/github-pages-basics/) 来获得更多的资讯。[Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) 在创造和管理Github上的个人网站而言也是一个很好的资源。
 
-### What is Jekyll? 什么是Jrkyll?
+### What is Jekyll?
 
 Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Basically, Jekyll takes your page content along with template files and produces a complete website. For more information, visit the [official Jekyll site](https://jekyllrb.com/docs/home/) for their documentation. Codecademy also offers a great course on [how to deploy a Jekyll site](https://www.codecademy.com/learn/deploy-a-website) for complete beginners.
 
@@ -73,9 +73,9 @@ The beauty of hosting your website on GitHub is that you don't have to actually 
 
 在Github上管理您的主页最美妙的地方在于 —— 您实际上不需要在电脑上安装Jekyll。所有事都可以直接通过Github的代码编辑器完成，您只需要有和一点点关于Jekyll和命令行的了解。您需要做的只有添加您的文章到 `_posts` 目录然后编辑 `_config.yml` 文件更改站点的设置。 若您有一些基本的HTML和CSS知识，您还可以根据您的喜好自由更改站点。这都可以通过Github代码编辑器完成，它就像一个内容管理系统(CMS)。
 
-## Installation 安装
+## Installation
 
-### GitHub Pages Installation GP安装
+### GitHub Pages Installation
 
 To start using Jekyll right away with GitHub Pages, [fork the Lagrange repository on GitHub](https://github.com/LeNPaul/Lagrange/fork). From there, you can rename your repository to 'USERNAME.github.io', where 'USERNAME' is your GitHub username, and edit the `settings.yml` file in the `_data` folder to your liking. Ensure that you have a branch named `gh-pages`. Your website should be ready immediately at 'http://USERNAME.github.io'. Note: if you are hosting several sites under the same GitHub username, then you will have to use [Project Pages instead of User Pages](https://help.github.com/articles/user-organization-and-project-pages/) - just change the repository name to something other than 'http://USERNAME.github.io'.
 
@@ -85,13 +85,13 @@ Head over to the `_posts` directory to view all the posts that are currently on 
 
 转到 `_posts` 目录可以查看当前网站上的所有帖子，并看到这些实例帖子文件大概长什么样。您可以简单地复制模板文章并开始添加自己的内容。
 
-### Local Installation 本地安装
+### Local Installation
 
 For a full local installation of Lagrange, [download your own copy of Lagrange](https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip) and unzip it into it's own directory. From there, open up your favorite command line tool, enter `bundle install`, and then enter `jekyll serve`. Your site should be up and running locally at [http://localhost:4000](http://localhost:4000).
 
 完全的本地安装，[下载Lagrange](https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip) 并解压在您自己的文件夹。然后在这里打开您最爱的命令行工具，输入 `bundle install`, 再输入 `jekyll serve`。您的网站就会在 [http://localhost:4000](http://localhost:4000) 启动并运行。
 
-### Directory Structure 目录结构
+### Directory Structure
 
 If you are familiar with Jekyll, then the Lagrange directory structure shouldn't be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the [Jekyll documentation site](https://jekyllrb.com/docs/structure/).
 
@@ -124,15 +124,15 @@ To completely start from scratch, simply delete all the files in the `_posts`, `
 
 如果要完全从零开始，可以直接删掉所有文件夹 `_posts`, `assets/img`, 和 `menu` 内的文件，添加成您自己的文件。您也可以用自己的README替换原有的 `README.md` 。在 `_data` 文件夹里面的文件和 `_config.yml` 文件都可以根据需求更改。您也可以根据需求更改 `favicon.ico` 文件。
 
-## Configuration 配置
+## Configuration
 
-### Sample Posts 示例帖
+### Sample Posts
 
 Visit the [the demo site](https://lenpaul.github.io/Lagrange/) to find sample posts that show what different types of text formatting look like. You can find these posts in the `_posts` folder, which show what the best practices for setting up your own site are.
 
 访问 [the demo site](https://lenpaul.github.io/Lagrange/) 可以得到不同形式的示例帖。这些帖子都可以在 `_posts` 文件夹找到，显示了建立您自己的网站的最佳做法。
 
-### Site Variables 站点变量
+### Site Variables
 
 To change site build settings, edit the `_config.yml` file found in the root of your repository, which you can tweak however you like. More information on configuration settings and plugins can be found on [the Jekyll documentation site](https://jekyllrb.com/docs/configuration/). This is also where you will be able to customize the title, description, and the author/owner of your site.
 
@@ -146,13 +146,13 @@ In the `settings.yml` file found in the `_data` folder, you will be able to cust
 
 在 `_data` 文件夹中的 `settings.yml` 文件中，您可以自定义您的网站设置，例如设置Disqus评论、Google Analytics、菜单中显示的内容以及社交媒体信息。
 
-### Adding Menu Pages 添加菜单页
+### Adding Menu Pages
 
 The menu pages are found in the `menu` folder in the root directory, and can be added to your menu in the `settings.yml` file.
 
 菜单页面位于根目录下的 `menu` 文件夹中，可以在 `settings.yml` 文件中添加到菜单中。
 
-### Posts 帖子
+### Posts
 
 You will find example posts in your `_posts` directory. Go ahead and edit any post and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -162,7 +162,7 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 要添加新帖子，只需在符合 `YYYY-MM-DD-name-of-post.md` 约定的 `_posts` 目录中添加一个文件，并包含必要的前置事项。 看示例文章，了解它是如何工作的。 如果您已经有了使用Jekyll建立的网站，只需复制您的帖子即可迁移到Lagrange。
 
-### Layouts 布局
+### Layouts
 
 There are two main layout options that are included with Lagrange: post and page. Layouts are specified through the [YAML front block matter](https://jekyllrb.com/docs/frontmatter/). Any file that contains a YAML front block matter will be processed by Jekyll. For example:
 
