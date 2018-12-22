@@ -18,7 +18,10 @@
 */
 
 body {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "PT Serif", Georgia, "Times New Roman", “Microsoft YaHei”, “微软雅黑”, sans-serif;
+  /*
+	font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  */
   font-size: 18px;
   color: #515151;
   line-height: 1.75rem;
@@ -140,13 +143,11 @@ hr {
 
 .post-container {
   margin-bottom: 4rem;
-  font-family: 'Arial', 'Microsoft YaHei', '微软雅黑”, sans-serif;
 }
 
 .posts {
   margin-bottom: 5rem;
   padding: 0px;
-  font-family: 'Arial', 'Microsoft YaHei', '微软雅黑', sans-serif;
   list-style: none;
 }
 
