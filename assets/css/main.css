@@ -140,12 +140,13 @@ hr {
 
 .post-container {
   margin-bottom: 4rem;
+  font-family: 'Arial', 'Microsoft YaHei', '微软雅黑”, sans-serif;
 }
 
 .posts {
   margin-bottom: 5rem;
   padding: 0px;
-  font-family: Arial, “Microsoft YaHei”, “微软雅黑”, sans-serif;
+  font-family: 'Arial', 'Microsoft YaHei', '微软雅黑', sans-serif;
   list-style: none;
 }
 
