@@ -4,7 +4,7 @@ title: "Reading lists"
 author: "Island"
 mathjax: true
 categories: MyNotes
-tags: [algorithm, math, note]
+tags: [algorithm, math]
 ---
 
 ## 01. Differences between Steepest Descent and Gradient Descent

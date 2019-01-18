@@ -3,7 +3,7 @@ layout: post
 title: "Marks of Lesson: Python Scientific Computing 3D Visualization"
 author: "Island"
 categories: NetLesson
-tags: [Python,note]
+tags: [Python]
 ---
 
 From 1st, June, 2018 to ...
